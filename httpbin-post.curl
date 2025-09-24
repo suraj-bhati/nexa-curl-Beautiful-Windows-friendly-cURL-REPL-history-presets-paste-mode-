@@ -1,0 +1,3 @@
+# Save this file as examples/httpbin-post.curl and load into paste mode
+
+curl -s -X POST 'https://httpbin.org/post'   -H 'Accept: application/json'   -d '{"hello": "world"}'
