@@ -1,0 +1,15 @@
+[project]
+name = "nexa-curl"
+version = "0.1.0"
+description = "Windows-friendly cURL REPL with paste mode, history, presets, defaults, and pretty output (Rich)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Suraj Bhati"}]
+dependencies = ["rich>=13.4"]
+
+[project.scripts]
+nexa-curl = "nexa_curl:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
